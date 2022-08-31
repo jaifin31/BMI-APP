@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.we_love_crazy_quote.bmi_calculator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bmi_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bmi_app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BMI_Calculator">
+        <activity
+            android:name=".senior_citizen_activity"
+            android:exported="true"
+            android:label="Senior Citizen"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".preganat_women_activity"
+            android:exported="true"
+            android:label="Pregnant Women"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".young_Adults_Activity"
+            android:exported="true"
+            android:label="Young Adults"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Adolescence_Activity"
+            android:label="Adolescence"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".pre_School_Children_Activity"
+            android:label="Pre-School Children"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Infancy_Activity"
+            android:label="Infancy "
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
